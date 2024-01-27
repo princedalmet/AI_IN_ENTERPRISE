@@ -1,9 +1,17 @@
 # AI_IN_ENTERPRISE
 In this repository we are going to study how to remotely connect git with github 
 
+Configure the project folder as a Git repository:
+
 git init
 
+This initializes a new Git repository in the current folder, and will see a .git folder (which is hidden) created in project folder.
+
+Now the project is set up as a Git repository, and proceed to add files, commit changes, and push to GitHub.
+
 git add .
+
+And then, if you haven't created a repository on GitHub yet, create one. If you have, you can add the remote and push your changes:
 
 git commit -m "Initial commit"
 
